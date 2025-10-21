@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Myriad;
+    src: url("/fonts/MYRIADAT.TTF");
+}
+body {
+	background-image: url('/img/windows_stock_photos_31.jpg');
+	font-family: Myriad;
+}
+a { color: blue; }
+a:visited { color: blue; }
+
+#header {
+	margin: auto;
+	border: 1px solid deepskyblue;
+	border-radius: 25px 25px 0px 0px;
+	background-image: linear-gradient(to bottom, aqua, deepskyblue);
+	width: 60%;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: none;
+}
+#header button {
+	background-image: linear-gradient(to bottom, white, lightgray);
+	padding: 10px;
+	cursor: pointer;
+	border: 2px solid white;
+	border-radius: 5px 5px 0px 0px
+}
+@font-face {
+    font-family: AerobicsRegular;
+    src: url("/fonts/AerobicsRegular-mLRZP.ttf");
+}
+#header a {
+	color: black;
+	text-decoration: none;
+	font-family: AerobicsRegular;
+	font-size: 18px;
+}
+
+#main {
+	margin: auto;
+	border: 1px solid white;
+	background-color: rgba(241, 241, 241, 0.67);
+	width: 60%;
+	padding: 1%
+}
+
+#bottom {
+	width: 60%;
+	margin: auto;
+	border: 1px solid white;
+	padding-right: 1%;
+	padding-left: 1%;
+	border-radius: 0px 0px 25px 25px;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.65), rgba(195, 195, 195, 0.65));
+}
